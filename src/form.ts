@@ -1,5 +1,4 @@
 import { inputData } from "./types";
-import * as loadash from "loadash";
 
 export const getFormData = (html: HTMLFormElement) => {
     const inputs = html.querySelectorAll('input');
